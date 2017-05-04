@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">CatEye</string>
+
+    <string name="device">设备</string>
+    <string name="record">记录</string>
+    <string name="message">消息</string>
+    <string name="mine">我的</string>
+
+    <!--消息中心-->
+    <string name="device_name">设备名称: %1$s</string>
+    <string name="alarm_type">报警类型: %1$s</string>
 </resources>

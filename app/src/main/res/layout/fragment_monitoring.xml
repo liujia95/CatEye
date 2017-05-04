@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_bg"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@color/orange" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/tv_play_fragment_monitoring"
+            style="@style/MonitoringTextViewStyle"
+            android:drawableTop="@drawable/ic_play_black_150px"
+            android:text="播放" />
+
+        <TextView
+            android:id="@+id/tv_picture_fragment_monitoring"
+            style="@style/MonitoringTextViewStyle"
+            android:drawableTop="@drawable/ic_pictures_black_150px"
+            android:text="拍照" />
+
+        <TextView
+            android:id="@+id/tv_video_fragment_monitoring"
+            style="@style/MonitoringTextViewStyle"
+            android:drawableTop="@drawable/ic_video_black_150px"
+            android:text="录像" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/tv_sound_fragment_monitoring"
+            style="@style/MonitoringTextViewStyle"
+            android:drawableTop="@drawable/ic_sound_black_150px"
+            android:text="声音" />
+
+        <TextView
+            android:id="@+id/tv_police_fragment_monitoring"
+            style="@style/MonitoringTextViewStyle"
+            android:drawableTop="@drawable/ic_police_black_150px"
+            android:text="报警" />
+
+        <TextView
+            android:id="@+id/tv_openkey_fragment_monitoring"
+            style="@style/MonitoringTextViewStyle"
+            android:drawableTop="@drawable/ic_openkey_black_150px"
+            android:text="开锁" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_begin_say_fragment_monitoring"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:background="@color/base_color"
+        android:text="按住说话"
+        android:textColor="@color/white" />
+
+</LinearLayout>
